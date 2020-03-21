@@ -15,7 +15,7 @@ public class WriteFile : MonoBehaviour
     private static string fileName = "save.bin";
     private static bool isCrypt = false;
     private static ushort secretKey = 0x0000;
-    private static string pass = "kolfrd58";
+    private static string pass = ";"
 
     private static string EncodeDecrypt(string str, ushort secretKey)
     {
